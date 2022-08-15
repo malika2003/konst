@@ -1,0 +1,384 @@
+/* @import'./fonts.css' */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.section-subtitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F46752;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+    color: #1D253C;
+}
+
+.section-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.section-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #126F86;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+p, h1, h3, h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-hollow {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #1D253C;
+    width: 160px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    border-radius: 4px;
+}
+
+.header {
+    align-items: center;
+    padding: 0 60px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-item {
+    margin-left: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header-nav-item:hover {
+    border-bottom: #007188 1px solid;
+    color: #007188;
+}
+
+.header-left-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-btn {
+    margin-left: 40px;
+}
+
+#hero {
+    background: url(../images/hero\ 1.png) no-repeat right/contain;
+    height: calc(100vh - 105px);
+}
+
+.hero-container {
+    margin-bottom: 30px;
+    padding: 223px 0 0 105px;
+}
+
+.hero-subtltle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F46752;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    text-transform: capitalize;
+    color: #1D253C;
+    width: 443px;
+}
+
+.hero-desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #5A6482;
+    width: 411px;
+    margin: 26px 0 40px 0;
+}
+
+.btn-orange {
+    margin-bottom: 30px;
+    position: relative;
+    padding: 21px 60px 21px 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F46752;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    border-radius: 4px;
+}
+
+.secure {
+    background: #F9F5F2;
+    padding: 85px 180px 84px;
+}
+
+.secure-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 144px;
+}
+
+.secure-img {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.04);
+    padding: 31px 43px 32px;
+    margin-bottom: 20px;
+}
+
+.secure-subtitle {
+
+    position: relative;
+    padding-left: 7px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.secure-img img {
+    width: 414px;
+    height: 373px;
+}
+
+.secure-subtitle img {
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.secure-info-side {
+    padding: 83px 0;
+}
+
+.secure-title {
+    margin: 26px 0 19px;
+}
+
+.secure-desc {
+    margin-bottom: 32px;
+}
+
+.tehnology-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 70px;
+}
+
+.tehnology-info {
+    padding: 126px 0;
+}
+
+.tehnology {
+    position: relative;
+    padding: 148px 180px 163px;
+}
+
+.tehnology-title {
+    margin: 27px 0 35px;
+}
+
+.tehnology-desc {
+    width: 470px;
+    margin-bottom: 15px;
+}
+
+.tehnology-dots {
+    position: absolute;
+    left: -45px;
+    top: -35px;
+}
+
+.tehnology-img {
+    position: relative;
+}
+
+.tehnology-section-img {
+    position: relative;
+    width: 542px;
+    height: 510px;
+}
+
+.tehnology-img-desc {
+    background: #FFFFFF;
+    box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1D253C;
+    padding: 20px 25px 19px 25px;
+    left: -60;
+    bottom: -25px;
+}
+
+.tehnology-umbrella {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: -190px;
+}
+
+.insurent {
+    width: 100%;
+    padding: 91px 0 85px;
+    background: #F8F8F8;
+    position: absolute;
+    text-align: center;
+}
+
+
+.insurent-title {
+    margin: 30px 0 37px;
+}
+
+.insurent-desc {
+    margin-bottom: 41px;
+}
+
+.insurent-grid {
+    margin: 0 150px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 70px;
+}
+
+.insurent-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 310px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.04);
+}
+
+.insurant-first-card {
+    height: 270px;
+    padding-top: 70px;
+}
+
+.insurant-first-card h5 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #1D253C;
+}
+
+.insurant-first-card p {
+    width: 212px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #5A6482;
+}
+
+.insurant-first-card p a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    text-decoration-line: underline;
+    color: #1D253C;
+}
+
+.insurant-second-card {
+    padding-top: 30px;
+}
+
+.insurant-second-card h5 {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #1D253C;
+}
+
+.insurant-second-card p {
+    width: 247px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #5A6482;
+}
+
+.insurant-third-card {
+    padding-top: 44px;
+
+}
+
+
+.insurant-third-card h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #1D253C;
+}
+
+.insurant-third-card p {
+    width: 244px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5A6482;
+}
+

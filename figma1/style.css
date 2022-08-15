@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #f2f2f2;
 }
 
 a {
@@ -120,6 +119,7 @@ p {
 
 #stopy {
     padding: 57px 0;
+    background-color: #f2f2f2;
 }
 
 .section_title {
@@ -129,7 +129,7 @@ p {
     font-weight: bold;
     letter-spacing: 2.30625px;
     color: #48555B;
- 
+
 }
 
 .story_title {
@@ -145,7 +145,7 @@ p {
 
 .section_title::before {
     bottom: -10px;
-    
+
     position: absolute;
     content: "";
     width: 50px;
@@ -216,27 +216,171 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.capabilities_card { 
-    padding: 38px 22px 39px 23px ;
+.capabilities_card {
+    padding: 38px 22px 39px 23px;
     height: 330px;
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
 }
 
-.capabilities_card_title{
+.capabilities_card_title {
     font-size: 16px;
-line-height: 24px;
-align-items: center;
-letter-spacing: 0.426667px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.426667px;
 
-color: #48555B;
+    color: #48555B;
 }
 
-.capabilities_card_desc{
+.capabilities_card_desc {
     font-size: 13px;
-line-height: 23px;
-align-items: center;
-letter-spacing: 0.1875px;
+    line-height: 23px;
+    align-items: center;
+    letter-spacing: 0.1875px;
 
-color: #48555B;
+    color: #48555B;
+}
+
+#get-in-touch {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding-top: 112px;
+    background: url("../images/bg\ \(1\).png")center/cover;
+}
+
+.get-in-touch-title {
+    width: 300px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-weight: bold;
+    color: #48555B;
+}
+
+.get-in-touch-button {
+    position: relative;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #00A4E5;
+}
+
+#sign-up {
+    height: 100px;
+    background: #171819;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-title {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.846154px;
+    margin-right: 70px;
+    color: #FFFFFF
+}
+
+.sign-up-form input {
+    margin-right: -4px;
+
+    width: 250px;
+    height: 40px;
+    left: 286px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+}
+
+.sign-up-form button {
+    width: 150px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    background: #00A4E5;
+}
+
+.footer-nav {
+    background: #141A20;
+    height: 240px;
+    padding-top: 42px;
+    background: #141A20
+}
+
+.footer-nav-flex {
+    display: flex;
+}
+
+.footer-nav-title {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.footer-nav-desk {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #FFFFFF;
+    width: 250px;
+    margin-top: 16px;
+}
+
+.footer-menu-lists {
+    display: flex;
+
+}
+
+h5 {
+    margin: 0;
+}
+
+.footer-menu-list {
+    margin: 0 34px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu-item {
+    flex-direction: column;
+    margin-bottom: 6px;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+
+.footer-nav-icons {
+    display: flex;
+    padding-top: 30px;
+}
+
+.footer-nav-icons i {
+    color: #E6E6E6;
+}
+
+.footer-nav-icons i:not(:last-child) {
+    margin-right: 24px;
+}
+
+.footer {
+    background: #171819;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+
+    color: #FFFFFF;
 }
